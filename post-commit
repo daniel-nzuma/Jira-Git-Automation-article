@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Run Jira handler after each commit
+SCRIPT_DIR=$(dirname "$0")
+python3 "$SCRIPT_DIR/jira_commit_handler.py"
